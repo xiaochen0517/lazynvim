@@ -4,3 +4,4 @@
 
 vim.keymap.set("n", "<leader>tt", ":tabnew | terminal<CR>", { desc = "Open terminal with new tab" })
 vim.keymap.set("i", "<C-l>", "<End>", { desc = "Move cursor to end" })
+vim.keymap.set("i", "jk", "<ESC>", { noremap = true, silent = true, desc = "Esc insert mode" })
